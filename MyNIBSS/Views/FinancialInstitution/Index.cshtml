@@ -1,0 +1,100 @@
+﻿@model IEnumerable<MyNIBSS.Core.Models.FinancialInstitution>
+
+@{
+    ViewBag.Title = "View All Financial Institutions";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@if (ViewBag.Message != null)
+{
+    @*if (ViewBag.Message == "Success")
+        {
+            <div class="alert alert-success">
+                <p>@ViewBag.Message <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> </p>
+
+            </div>
+
+        }
+        else if (ViewBag.Message == "Exist")
+        {
+            <div class="alert alert-error">
+                <p>Branch Name Exist <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> </p>
+
+            </div>
+
+        }
+        else if (ViewBag.Message == "Error")
+        {
+            <div class="alert alert-error">
+                <p>@ViewBag.Message <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> </p>
+
+            </div>
+
+        }
+        else
+        {*@
+    <div class="alert" style="background-color:darkorange">
+        <p>@ViewBag.Message <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> </p>
+    </div>
+    @*}*@
+}
+<p>
+    @Html.ActionLink("Add new Financial Institution", "Add")
+</p>
+<table class="table table-hover table-responsive table-condensed" id="customers">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InstitutionCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IPAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Port)
+            </th>
+            <th>Action</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.InstitutionCode)
+                </td>
+                <td>
+                        @Html.DisplayFor(modelItem => item.IPAddress)
+                </td>
+                <td>
+                        @Html.DisplayFor(modelItem => item.Port)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>
+@section ViewSpecificJavascript
+    {
+    <script>
+        $(document).ready(function () {
+            setTimeout(function () {
+                $(".alert").fadeOut(100, null);
+            },
+                3000);
+        });
+        $("#customers").dataTable();
+
+    </script>
+
+}

@@ -1,0 +1,15 @@
+C:\Users\OYELAYO\Documents\Appzone\Projects\MyNIBSS\MyNIBSS.Data\obj\Debug\MyNIBSS.Data.csprojAssemblyReference.cache
+C:\Users\OYELAYO\Documents\Appzone\Projects\MyNIBSS\MyNIBSS.Data\obj\Debug\MyNIBSS.Data.csproj.CoreCompileInputs.cache
+C:\Users\OYELAYO\Documents\Appzone\Projects\MyNIBSS\MyNIBSS.Data\bin\Debug\MyNIBSS.Data.dll.config
+C:\Users\OYELAYO\Documents\Appzone\Projects\MyNIBSS\MyNIBSS.Data\bin\Debug\MyNIBSS.Data.dll
+C:\Users\OYELAYO\Documents\Appzone\Projects\MyNIBSS\MyNIBSS.Data\bin\Debug\MyNIBSS.Data.pdb
+C:\Users\OYELAYO\Documents\Appzone\Projects\MyNIBSS\MyNIBSS.Data\bin\Debug\EntityFramework.dll
+C:\Users\OYELAYO\Documents\Appzone\Projects\MyNIBSS\MyNIBSS.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\OYELAYO\Documents\Appzone\Projects\MyNIBSS\MyNIBSS.Data\bin\Debug\MyNIBSS.Core.dll
+C:\Users\OYELAYO\Documents\Appzone\Projects\MyNIBSS\MyNIBSS.Data\bin\Debug\MyNIBSS.Core.pdb
+C:\Users\OYELAYO\Documents\Appzone\Projects\MyNIBSS\MyNIBSS.Data\bin\Debug\MyNIBSS.Core.dll.config
+C:\Users\OYELAYO\Documents\Appzone\Projects\MyNIBSS\MyNIBSS.Data\bin\Debug\EntityFramework.xml
+C:\Users\OYELAYO\Documents\Appzone\Projects\MyNIBSS\MyNIBSS.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\OYELAYO\Documents\Appzone\Projects\MyNIBSS\MyNIBSS.Data\obj\Debug\MyNIBSS.Data.csproj.CopyComplete
+C:\Users\OYELAYO\Documents\Appzone\Projects\MyNIBSS\MyNIBSS.Data\obj\Debug\MyNIBSS.Data.dll
+C:\Users\OYELAYO\Documents\Appzone\Projects\MyNIBSS\MyNIBSS.Data\obj\Debug\MyNIBSS.Data.pdb
